@@ -60,6 +60,7 @@ DB_PORT=5432
 ### 4. Migrate và tạo superuser
 
 ```
+python manage.py makemigrations
 python manage.py migrate
 python manage.py createsuperuser
 ```

@@ -1,0 +1,66 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.Python
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+*.pyo
+*.egg-info/
+media/
+staticfiles/
+
+# Cache, test, and coverage files
+htmlcov/
+.tox/
+.noseids
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+.junit/
+test-results/
+django_cache/
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Env files and secrets
+*.env
+.env*
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Docker and misc
+*.pid
+*.bak
+*.seed
+*.tar
+*.gz
+
+# Database (PostgreSQL)
+*.dump
+*.pgsql
+*.psql
+*.sql

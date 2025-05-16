@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Template</title>
+    <style>
+        h1 {
+            color: black;  
+            font-weight: bold;
+        }
+        p {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>ĐẶT LẠI MẬT KHẨU</h1>
+    <p>Xin chào {{ username|safe }} </p>
+    <p>Vui lòng nhấn vào liên kết sau để đặt lại mật khẩu:</p>
+    <p><a href={{ reset_link|safe }}>Đặt lại mật khẩu</a></p>
+    <p>Nếu bạn không yêu cầu điều này, hãy bỏ qua email này.</p>
+</body>
+</html>
